@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h2 style = "margin:5px">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Add to list">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li class="checked">Work on three projects</li>
+      <li>Go over HTML basics</li>
+      <li>Go over CSS basics</li>
+      <li>Go over Javascript basics</li>
+      <li class="checked">Begin and finish first project</li>
+      <li>Begin and finish second project</li>
+      <li>Begin and finish third project</li>
+    </ul>
+
+    <button type="button" id="clear-list" onclick="removeAll()">Clear List</button>
+
+    <script type="text/javascript" src="todo.js"></script>
+
+  </body>
+
+</html>
